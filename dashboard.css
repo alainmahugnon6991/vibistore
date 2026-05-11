@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 100px;
+  color: white;
+}
+header button {
+  color: white;
+  background-color: blue;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: black;
+  justify-content: left;
+}
+nav li a {
+  display: block;
+  color: white;
+  font-size: 16px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+section {
+  padding: 20px 100px;
+}
+.un {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.un button {
+  color: white;
+  background-color: green;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.deux {
+  color: white;
+  background-color: rgba(47, 144, 255, 0.91);
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+}

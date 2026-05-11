@@ -1,0 +1,65 @@
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Titre principal */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+/* Sous-titres */
+h2 {
+  margin-top: 25px;
+  font-size: 1.2em;
+  color: #25d366;
+}
+
+/* Paragraphes */
+p {
+  line-height: 1.6;
+  margin: 10px 0;
+  font-size: 0.95em;
+}
+
+/* Listes */
+ul {
+  margin: 10px 0 10px 20px;
+  font-weight: 400;
+}
+
+li {
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+/* Liens */
+a {
+  color: #25d366;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* Barre en haut (effet SaaS) */
+.top-bar {
+  height: 5px;
+  background-color: #25d366;
+}

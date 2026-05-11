@@ -1,0 +1,52 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+input:focus {
+  border-color: green;
+  outline: none;
+}
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px;
+}
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
+a {
+  padding: 10px;
+  color: blue;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid blue;
+  text-decoration: none;
+}
+a:hover {
+  background: blue;
+  color: white;
+}
